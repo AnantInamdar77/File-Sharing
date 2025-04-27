@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -73,3 +74,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # File-Sharing-App
 basic mern app
 >>>>>>> 0f31ee963920b6c98cd1e75efd8bb665adff636c
+=======
+# File-Sharing-App
+basic mern app
+>>>>>>> c3a8ef6f7b5707a6e057caccc46c8698486cd6a4
