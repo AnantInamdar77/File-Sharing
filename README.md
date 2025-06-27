@@ -19,7 +19,6 @@ A full-stack file-sharing platform built with **MERN Stack** (MongoDB, Express.j
 
 ### 💻 Frontend
 - React.js  
-- Tailwind CSS  
 - Axios  
 
 ### 🌐 Backend
