@@ -29,15 +29,6 @@ A full-stack file-sharing platform built with **MERN Stack** (MongoDB, Express.j
 - Multer (for file uploads)  
 - Nodemailer (for email sharing)  
 
----
-
-## 📷 Screenshots
-
-| Upload Page | File List | Email Share |
-|-------------|-----------|-------------|
-| ![upload](https://i.imgur.com/XYZupload.png) | ![list](https://i.imgur.com/XYZlist.png) | ![email](https://i.imgur.com/XYZemail.png) |
-
-> 📝 Replace these image URLs with your own actual screenshots
 
 ---
 
