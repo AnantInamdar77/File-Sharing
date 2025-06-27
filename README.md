@@ -1,79 +1,112 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# File-Sharing
-=======
-# Getting Started with Create React App
+# 🔁 File Sharing Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack file-sharing platform built with **MERN Stack** (MongoDB, Express.js, React, Node.js). This app lets users upload, store, and securely share files with others — just like WeTransfer or Google Drive, but custom-built!
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- 📤 Upload any type of file with progress indication  
+- 🔗 Generate shareable download links  
+- 📨 Share files directly via email  
+- 🗂️ Secure file storage with metadata  
+- 🧾 File history (recent uploads)  
+- 🌐 Fully responsive UI with React  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧱 Tech Stack
 
-### `npm test`
+### 💻 Frontend
+- React.js  
+- Tailwind CSS  
+- Axios  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🌐 Backend
+- Node.js  
+- Express.js  
+- MongoDB (Mongoose)  
+- Multer (for file uploads)  
+- Nodemailer (for email sharing)  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📷 Screenshots
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Upload Page | File List | Email Share |
+|-------------|-----------|-------------|
+| ![upload](https://i.imgur.com/XYZupload.png) | ![list](https://i.imgur.com/XYZlist.png) | ![email](https://i.imgur.com/XYZemail.png) |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> 📝 Replace these image URLs with your own actual screenshots
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🔧 Setup Instructions
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 1. Clone the repository
+```bash
+git clone https://github.com/AnantInamdar77/File-Sharing.git
+cd File-Sharing
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 2. Install dependencies
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### Backend
+```bash
+cd server
+npm install
+```
 
-## Learn More
+#### Frontend
+```bash
+cd ../client
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 3. Configure Environment Variables
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Create a `.env` file in `server/`:
+```env
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+EMAIL_USER=your_email@example.com
+EMAIL_PASS=your_email_password
+BASE_URL=http://localhost:5000
+```
 
-### Code Splitting
+### 4. Run the App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### Backend:
+```bash
+cd server
+npm start
+```
 
-### Analyzing the Bundle Size
+#### Frontend:
+```bash
+cd client
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## ✨ How It Works
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. User uploads a file  
+2. Backend stores file and generates a unique link  
+3. User can copy the link or send it directly via email  
+4. Recipient uses the link to download the file  
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🤝 Author
 
-### Deployment
+**Anant Inamdar**  
+📍 Full Stack Developer  
+📬 [LinkedIn](https://www.linkedin.com/in/anantinamdar77)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 📜 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> e00ea0a (Initial commit)
-=======
-# File-Sharing-App
-basic mern app
->>>>>>> 0f31ee9 (Initial commit)
+This project is open-source and free to use for personal or educational purposes.
